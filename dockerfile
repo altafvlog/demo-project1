@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-RUN apt-get install -y nginx
+MAINTAINER devopsaltaf@gmail.com
 
 copy .  .
 
